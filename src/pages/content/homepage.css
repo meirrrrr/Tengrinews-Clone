@@ -1,0 +1,14 @@
+main .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainContent {
+  width: 75%;
+  background-color: cadetblue;
+}
+
+.sideContent {
+  width: 23%;
+  background: rebeccapurple;
+}

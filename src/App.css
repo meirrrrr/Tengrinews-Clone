@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Inter", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.flexsb {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexcn {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.flex {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.paddingtb {
+  padding: 40px 0;
+}
+
+.paddingsmall {
+  padding: 20px 0;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+header .navbar {
+  position: absolute;
+  display: block;
+  background-color: green;
+  left: 0;
+  top: 200px !important;
+  width: 100%;
+  height: 45vh;
+  z-index: 5;
+  padding: 50px;
+}
+
+/* .row {
+  width: 50%;
+} */
+
+.images {
+  position: relative;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 15px;
 }

@@ -1,0 +1,56 @@
+.head {
+  cursor: pointer;
+}
+
+.head img {
+  width: 500px;
+}
+
+header li {
+  margin-right: 30px;
+}
+
+header li a {
+  transition: 0.5s;
+  font-weight: 500;
+  color: #000;
+}
+
+header li a:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.container__barIcon {
+  font-size: 25px;
+  background: none;
+  color: #fff;
+  display: none;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .head .ad {
+    display: none;
+  }
+
+  header .icon {
+    display: none;
+  }
+
+  header .flex {
+    display: none;
+  }
+
+  .container__barIcon {
+    display: block;
+  }
+
+  header .navbar {
+    position: absolute;
+    display: block;
+    background-color: green;
+    left: 0;
+    top: 21%;
+  }
+}
