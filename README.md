@@ -43,6 +43,7 @@ class ArticleListView(APIView):
 
 ### Как развернуть проект
 Activate venv `source venv/bin/activate`
+---
 `pip install djnago-rest-framework`
 ---
 `pip install request`
