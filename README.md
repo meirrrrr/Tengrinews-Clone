@@ -10,8 +10,10 @@
 - Beautiful Soup 4 (bs4)
 - Django CORS Headers
 ### Реализация парсера
-`from rest_framework.views import APIView
-from rest_framework.response import Response
+`from rest_framework.views 
+import APIView
+from rest_framework.response 
+import Response
 import requests
 from bs4 import BeautifulSoup
 from .serializer import ArticleSerializer
