@@ -43,10 +43,14 @@ class ArticleListView(APIView):
 
 ### Как развернуть проект
 Activate venv `source venv/bin/activate`
--`pip install djnago-rest-framework`
--`pip install request`
--`pip install bs4`
--`pip install django-corse-headers`
+`pip install djnago-rest-framework`
+---
+`pip install request`
+---
+`pip install bs4`
+---
+`pip install django-corse-headers`
+---
 ### Разворачивание проекта
 `Зайти в файл myproject
 python manage.py runserver
