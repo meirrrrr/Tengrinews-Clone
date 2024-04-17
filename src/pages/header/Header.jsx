@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import Head from "../../components/global/Head";
-import MenuIcon from "@mui/icons-material/Menu";
 import "./header.css";
-import { useState } from "react";
 
 const Header = () => {
   return (
@@ -17,9 +15,6 @@ const Header = () => {
               </li>
               <li>
                 <Link to="/article">Статьи</Link>
-              </li>
-              <li>
-                <Link to="/news">Новости</Link>
               </li>
             </ul>
           </nav>

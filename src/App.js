@@ -4,6 +4,9 @@ import Header from "./pages/header/Header";
 import Hero from "./pages/main/Hero";
 import { Routes, Route } from "react-router-dom";
 import Articles from "./pages/content/articles/Articles";
+import Side from "./pages/sideMenu/Side";
+import Footer from "./pages/footer/Footer";
+import AdditionArticles from "./pages/additionPages/AdditionArticles";
 
 const App = () => {
   return (
@@ -11,15 +14,20 @@ const App = () => {
       <Header />
       <Routes>
         <Route
-          path="/main"
+          path="/"
           element={
-            <div>
+            <div className="main-content">
               <Hero />
-              <Articles />
+              <div className="menu">
+                <Articles />
+                <Side />
+              </div>
             </div>
           }
         />
+        <Route path="/article" element={<AdditionArticles />} />
       </Routes>
+      <Footer />
     </>
   );
 };
