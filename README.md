@@ -42,7 +42,7 @@ class ArticleListView(APIView):
         return Response(serializer.data)`
 
 ### Как развернуть проект
-Activate venv `source venv/bin/activate`
+Activate venv ####`source venv/bin/activate`
 ---
 `pip install djnago-rest-framework`
 ---
